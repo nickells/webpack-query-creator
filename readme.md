@@ -1,8 +1,11 @@
-Did you encounter `Error: Cannot define 'query' and multiple loaders in loaders list`?
+#Webpack Query Creator
+A tool for assigning a query to a single webpack loader.
+
+Have you encountered `Error: Cannot define 'query' and multiple loaders in loaders list`?
 
 You've come to the right place!
 
-Usage:
+##Usage:
 BEFORE: (This won't work!)
 ```js
 // ...
@@ -40,6 +43,6 @@ import loaderWithQuery from 'webpack-query-creator'
         ],
       },
   ],
-  
+
 // ...
 ```
