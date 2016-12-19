@@ -4,8 +4,9 @@ You've come to the right place!
 
 Usage:
 BEFORE: (This won't work!)
-```
+```js
 // ...
+
   module: {
     loaders: [
       {
@@ -16,6 +17,7 @@ BEFORE: (This won't work!)
         }
       },
     ],
+
 // ...
 ```
 
@@ -23,6 +25,7 @@ AFTER:
 ```js
 import loaderWithQuery from 'webpack-query-creator'
 // ...
+
   module: {
     loaders: [
       {
@@ -37,5 +40,6 @@ import loaderWithQuery from 'webpack-query-creator'
         ],
       },
   ],
+  
 // ...
 ```
