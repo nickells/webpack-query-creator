@@ -1,0 +1,22 @@
+{
+  "name": "webpack-single-query-creator",
+  "version": "1.0.0",
+  "description": "Cleanly add a query to an individual webpack loader",
+  "main": "index.js",
+  "keywords": [
+    "webpack",
+    "query",
+    "loader",
+    "string",
+    "template",
+    "json",
+    "multiple",
+    "loaders",
+    "error"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nickells",
+  "license": "ISC"
+}
