@@ -1,7 +1,11 @@
 {
-  "name": "webpack-single-query-creator",
+  "name": "webpack-query-creator",
   "description": "Easy fix for Error: Cannot define 'query' and multiple loaders in loaders list",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "repository": { 
+    "type" : "git", 
+    "url" : "https://github.com/nickells/webpack-query-creator"
+  },
   "description": "Cleanly add a query to an individual webpack loader",
   "main": "index.js",
   "keywords": [
